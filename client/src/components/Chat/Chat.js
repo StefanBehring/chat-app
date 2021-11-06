@@ -66,7 +66,6 @@ const Chat = ({ socket, username, room }) => {
             onChange={event => {
               setCurrentMessage(event.target.value)
             }}
-            onKeyPress={event => event.key === 'Enter' && sendMessageHandler()}
           />
         </label>
         <button>&#9658;</button>
